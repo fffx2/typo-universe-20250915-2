@@ -1,0 +1,93 @@
+{
+  "guidelines": {
+    "ios": {
+      "source": "Apple Human Interface Guidelines",
+      "font": {
+        "family": "SF Pro Display",
+        "unit": "pt",
+        "keyFeature": "Dynamic Type"
+      },
+      "typeScale": {
+        "body": "17pt",
+        "headline": "17pt (Semi-Bold)",
+        "largeTitle": "34pt"
+      },
+      "lineHeight": "1.6",
+      "contrast": "WCAG 2.1 AA (4.5:1) 기준을 엄격히 준수"
+    },
+    "android": {
+      "source": "Google Material Design",
+      "font": {
+        "family": "Roboto",
+        "unit": "sp",
+        "keyFeature": "Scale-independent Pixels"
+      },
+      "typeScale": {
+        "body": "16sp",
+        "headline": "34sp",
+        "button": "14sp"
+      },
+      "lineHeight": "1.5",
+      "contrast": "WCAG 2.1 AA (4.5:1) 기준"
+    },
+    "web": {
+      "source": "W3C Web Standards",
+      "font": {
+        "family": "Inter",
+        "unit": "rem",
+        "keyFeature": "Responsive Design"
+      },
+      "typeScale": {
+        "body": "1rem",
+        "h1": "2.5rem",
+        "h2": "2rem"
+      },
+      "lineHeight": "1.6",
+      "contrast": "WCAG 2.1 AA (4.5:1) 기준"
+    }
+  },
+  "hci_principles": {
+    "line_length": {
+      "rule": "한 줄에 45~75자 사이 유지",
+      "reason": "인지 부하 감소 및 읽기 리듬 최적화",
+      "source": "Dyson, M. C. (2001)"
+    },
+    "x_height": {
+      "rule": "x-height가 큰 폰트 사용",
+      "reason": "동일한 폰트 사이즈에서 더 크게 느껴지고 가독성이 좋음",
+      "source": "Arditi, A., & Crain, T. (2014)"
+    },
+    "contrast": {
+      "rule": "명도 대비 충분히 확보",
+      "reason": "시각적 피로도 감소 및 가독성 향상",
+      "source": "W3C WCAG 2.1"
+    }
+  },
+  "iri_colors": {
+    "group1": {
+      "keywords": ["귀여운", "경쾌한"],
+      "description": "Soft + Dynamic",
+      "key_colors": ["#FDEEB1", "#F5D1C8", "#B7D683"]
+    },
+    "group2": {
+      "keywords": ["맑은", "온화한", "은은한"],
+      "description": "Soft + Static",
+      "key_colors": ["#D2E3E8", "#ECDBD1", "#D4C8BE"]
+    },
+    "group3": {
+      "keywords": ["고상한", "점잖은"],
+      "description": "Hard + Static",
+      "key_colors": ["#A08C7D", "#584842", "#765F3F"]
+    },
+    "group4": {
+      "keywords": ["다이나믹한", "화려한"],
+      "description": "Hard + Dynamic",
+      "key_colors": ["#C60000", "#00569E", "#FFC300"]
+    },
+    "group5": {
+      "keywords": ["내츄럴한", "우아한", "모던한"],
+      "description": "Neutral",
+      "key_colors": ["#788A67", "#A7AF98", "#404859"]
+    }
+  }
+}
